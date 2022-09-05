@@ -1,0 +1,47 @@
+/* variables */
+:root {
+    --color-one: #293462;
+    --color-two: #1CD6CE;
+    --color-three: #FEDB39;
+    --color-four: #D61C4E;
+}
+
+body {
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    background: url("../img/dot-grid.png") center;
+}
+
+/* navbar */
+.header{
+    position:relative;
+}
+.header .banner-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: 100vh;
+    background: url("../img/top-view-books-with-copy-space.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+.header .banner-image h1 {
+    position:absolute;
+    color: #fff;
+    font-size: 6rem;
+    text-shadow: 2px 2px #000;
+    z-index:500;
+}
+
+/***********Framework********/
+.overlay {
+    position: fixed; /* Sit on top of the page content */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 1; /* Specify a stack order in case you're using a different order for other elements */
+  }
