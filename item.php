@@ -38,14 +38,8 @@
                     </ul>
                     <h5 class="item-tags">الوسوم:</h5>
                     <ul class="tag">
-                        <li>
-                            <a href="#"><i class="fa-solid fa-tag"></i>
-                                كتاب</a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa-solid fa-tag"></i>
-                                فاصل كتاب</a>
-                        </li>
+                        <li><a href="#"><i class="fa-solid fa-tag"></i>كتاب</a></li>
+                        <li><a href="#"><i class="fa-solid fa-tag"></i>فاصل كتاب</a></li>
                     </ul>
                     
                 </div>
