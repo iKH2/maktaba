@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>header</title>
+    <title>مكتبة أيمن</title>
     <!------------------- google fonts ------------------->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,8 +17,9 @@
     <!------------------- Main CSS file ------------------->
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <header>   
+    <header>
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
             <div class="container">
                 <a class="navbar-brand" href="./index.php"><img class="img-fluid" src="img/logo.svg" alt="logo" width="200" heigh="200"></a>
@@ -31,7 +33,7 @@
                             <a class="nav-link" href="index.php">الرئيسية</a>
                         </li>
                         <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 الأقسام
                             </a>
                             <ul class="dropdown-menu">
@@ -44,16 +46,10 @@
                             <a class="nav-link" href="#">حول</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./contact.php">تواصل معنا</a>
+                            <a class="nav-link" href="#contact-us">اتصل بنا</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-    </header> 
-    <!------------------- Java Script ------------------->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
-    <script src="js/scripts.js"></script>
-</body>
-</html>
+    </header>

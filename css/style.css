@@ -1,303 +1,413 @@
 /*------------------- variables -------------------*/
 :root {
-    --color-one: #293462;
-    --color-two: #1CD6CE;
-    --color-three: #FEDB39;
-    --color-four: #D61C4E;
-    --color-w: #fff;
-    --color-b: #000;
+  --color-one: #293462;
+  --color-two: #1cd6ce;
+  --color-three: #fedb39;
+  --color-four: #d61c4e;
+  --color-w: #fff;
+  --color-b: #000;
 }
 
 body {
-    font-family: 'Baloo Bhaijaan 2', cursive;
-    /* background: url("../img/dot-grid.png") center; */
+  font-family: "Baloo Bhaijaan 2", cursive;
+  /* background: url("../img/dot-grid.png") center; */
 }
 
 /*------------------- general -------------------*/
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+textarea {
+    resize: none;
+}
 
 h3 {
-    color: var(--color-four);
-    position: relative;
-    padding-right: 20px;
-    font-weight: 600;
-    margin-top: 30px;
-    margin-bottom: 30px;
+  color: var(--color-four);
+  position: relative;
+  padding-right: 20px;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 h3::before {
-    content: "";
-    position: absolute;
-    right: 0;
-    top: -6px;
-    width: 4px;
-    height: 39px;
-    border-radius: 5px;
-    background-color: var(--color-four);
+  content: "";
+  position: absolute;
+  right: 0;
+  top: -6px;
+  width: 4px;
+  height: 39px;
+  border-radius: 5px;
+  background-color: var(--color-four);
+}
+
+/*------------------- functions -------------------*/
+.ul-none {
+    list-style-type: none;
+    padding: 0;
 }
 
 /*------------------- header -------------------*/
 header {
-    position: relative;
+  position: relative;
 }
 
 header .nav-link {
-    color: var(--color-w);
-    font-size: 18px;
+  color: var(--color-w);
+  font-size: 18px;
 }
 
 header .nav-link:hover {
-    color: var(--color-two);
+  color: var(--color-two);
 }
 
 header .dropdown-item:hover {
-    background-color: var(--color-one);
-    color: var(--color-w);
+  background-color: var(--color-one);
+  color: var(--color-w);
 }
 
-header .banner-image {
-    background-image: url("../img/top-view-books-with-copy-space.jpg");
-    background-size: cover;
+.banner-image {
+  background-image: url("../img/top-view-books-with-copy-space.jpg");
+  background-size: cover;
 }
 
-header .content {
-    padding-right: 60px;
-    position: absolute;
-    z-index: 2;
+.content {
+  padding-right: 60px;
+  position: absolute;
+  z-index: 2;
 }
 
-header .content h1 {
-    font-weight: bold;
-    font-size: 60px;
-    text-shadow: 2px 2px var(--color-one);
-    margin-bottom: 26px;
+.content h1 {
+  font-weight: bold;
+  font-size: 60px;
+  text-shadow: 2px 2px var(--color-one);
+  margin-bottom: 26px;
 }
 
-header .content p {
-    font-size: 30px;
-    color: var(--color-three);
+.content p {
+  font-size: 30px;
+  color: var(--color-three);
 }
 
 header nav .nav-item {
-    margin-right: 16px;
+  margin-right: 16px;
 }
 
 /*------------------- Sections -------------------*/
 .section-1,
 .section-2,
 .section-3 {
-    padding-top: 60px;
-    padding-bottom: 60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 /*------------------- Section-1 -------------------*/
 .section-1 .s1-item {
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    background-color: var(--color-one);
-    border-radius: 5px;
-    height: 6rem;
-    padding: 14px;
-    transition-property: padding-bottom;
-    transition-duration: 0.3s;
-    transition-timing-function: ease-in-out;
-    margin-bottom: 20px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background-image: url(../img/dot-grid.png);
+  border-radius: 5px;
+  height: 6rem;
+  padding: 14px;
+  transition: all 0.3s ease-in-out;
+  margin-bottom: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-weight: 600;
 }
 
 .section-1 .s1-item:hover {
-    padding-bottom: 2rem;
+  padding-bottom: 2rem;
+  color: var(--color-one);
 }
 
 .section-1 .s1-item span {
-    font-size: 18px;
+  font-size: 18px;
 }
 
-.section-1  a {
-    text-decoration: none;
-    color: var(--color-w);
+.section-1 a {
+  text-decoration: none;
+  color: var(--color-two);
 }
 
+/*------------------- Section two -------------------*/
 .section-2 {
-    color: var(--color-one);
+  color: var(--color-one);
 }
+
+.section-2 .card {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.section-2 .cart {
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: var(--color-three);
+  padding: 4px;
+  width: 30px;
+  height: 30px;
+  color: var(--color-one);
+  margin-left: 4px;
+}
+
+.section-2 .fav {
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: var(--color-three);
+  padding: 4px;
+  width: 30px;
+  height: 30px;
+  color: var(--color-one);
+}
+
+/*------------------- end section two -------------------*/
+
+/*------------------- Section three -------------------*/
+
+.section-3 .form-area {
+  background-color: var(--color-w);
+  padding: 30px;
+  border-radius: 12px;
+}
+
+.section-3 .form-area label {
+  color: var(--color-two);
+}
+
+.section-3 .form-area .submit-btn {
+  border: none;
+  border-radius: 8px;
+  padding: 6px 20px;
+  background-color: var(--color-one);
+  color: var(--color-w);
+}
+
+/*------------------- end section three -------------------*/
+
+/*------------------- Last section -------------------*/
+.last-section {
+  padding: 80px;
+  color: var(--color-one);
+  background: url('../img/dot-grid.png');
+}
+
+
+.last-section h4 {
+  font-weight: 600;
+  position: relative;
+  z-index: 1;
+}
+
+.last-section p {
+  width: 80%;
+}
+
+.last-section h4::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 40%;
+  height: 100%;
+  right: -10px;
+  top: -1px;
+  opacity: 0.7;
+  background-color: var(--color-three);
+  transform: skewY(-2deg);
+}
+
+.last-section .contact-icons {
+  display: inline-flex;
+  gap: 14px;
+}
+
+.last-section .contact-icons i {
+    font-size: 26px;
+}
+
+.last-section .footer-contact li span {
+    padding-left: 8px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.last-section .fa-li {
+    position: unset;
+    left: 0;
+}
+
+.last-section a {
+    transition: all 0.3s ease-in-out;
+}
+
+.last-section a:hover {
+    color: var(--color-four)
+}
+
+/*------------------- End of Last section -------------------*/
 
 /*------------------- Footer -------------------*/
 footer {
-    background-color: var(--color-one);
-    color: white;
-    padding: 30px 10px;
-    text-align: center;
+  background-color: var(--color-one);
+  color: white;
+  padding: 30px 10px;
+  text-align: center;
 }
+
+/*------------------- End of Footer -------------------*/
 
 /*------------------- Framework -------------------*/
 .overlay {
-    position: absolute;
-    width: 100%;
-    height: 100%; 
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0,0,0,0.5); 
-    z-index: 1; 
-  }
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
 
 /*------------------- products page -------------------*/
 .products {
-    position: relative;
-    padding-top: 200px;
+  position: relative;
+  padding-top: 200px;
 }
 
 .products .prod {
-    background-color: var(--color-w);
-    color: var(--color-one);
-    padding: 20px;
-    border-radius: 4px;
-    box-shadow: 2px 2px 8px 0px var(--color-three);
-    margin-bottom: 20px;
+  background-color: var(--color-w);
+  color: var(--color-one);
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-bottom: 20px;
 }
 
-.products .prod .info {
-    padding: 20px 0;
+.products .prod .prod-info {
+  padding: 20px;
 }
 
-.products .prod .info a {
-    text-decoration: none;
-    color: var(--color-one);
+.products .prod .prod-info a {
+  text-decoration: none;
+  color: var(--color-one);
 }
 
-.products .prod .info .product-price{
-    font-size: 20px;
-    font-weight: 600;
+.products .prod .prod-info .product-price {
+  font-size: 20px;
+  font-weight: 600;
 }
 
-.products .prod .info .buttons {
-    padding: 10px 0;
-    display: flex;
-    gap: 10px;
-    justify-content: flex-end;
+.products .prod .prod-info .buttons {
+  padding: 10px 0;
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
 }
 
-.products .prod .info .buttons button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: none;
-    border-radius: 50%;
-    background-color: var(--color-three);
-    padding: 4px;
-    width: 30px;
-    height: 30px;
+.products .prod .prod-info .buttons button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 50%;
+  background-color: var(--color-three);
+  padding: 4px;
+  width: 30px;
+  height: 30px;
 }
 
-.products .prod .info i:hover {
-    color: var(--color-four);
+.products .prod .prod-info i:hover {
+  color: var(--color-four);
 }
 
-.products .prod .info i {
-    color: var(--color-one);
+.products .prod .prod-info i {
+  color: var(--color-one);
+  transition: all 0.3s ease-in-out;
 }
 
-/*------------------- item page -------------------*/
+/*------------------- End of Poducts Page -------------------*/
+
+/*------------------- Item Page -------------------*/
 .item-pg {
-    margin-top: 10%;
-    margin-bottom: 10%;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 
 .item-pg .item-title {
-    font-size: 2rem;
-    font-weight: 600;
-    color: var(--color-four);
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--color-four);
 }
 
 .item-pg .item-price {
-    font-size: 1.5rem;
-    color: var(--color-two);
+  font-size: 1.5rem;
+  color: var(--color-two);
 }
 
 .item-pg .buttons {
-    padding: 10px 0;
-    display: flex;
-    gap: 10px;
+  padding: 10px 0;
+  display: flex;
+  gap: 10px;
 }
 
 .item-pg .buttons button {
-    border: none;
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    background-color: var(--color-three);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background-color: var(--color-three);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .item-pg .buttons i {
-    color: var(--color-one);
+  color: var(--color-one);
 }
 
 .item-pg .item-description {
-    list-style-type: circle;
-    font-size: 1.1rem;
-    color: var(--color-one);
-    margin-top: 20px;
-    line-height: 2;
+  list-style-type: circle;
+  font-size: 1.1rem;
+  color: var(--color-one);
+  margin-top: 20px;
+  line-height: 2;
 }
 
 .item-pg .tag {
-    list-style-type: none;
-    display: inline-flex;
-    gap: 10px;
-    padding: 0;
+  display: inline-flex;
+  gap: 10px;
 }
 
 .item-pg .item-tags {
-    color: var(--color-four);
-    font-weight: 600;
-    margin-bottom: 20px;
+  color: var(--color-four);
+  font-weight: 600;
+  margin-bottom: 20px;
 }
 
 .item-pg .tag li {
-    transition: all 0.5s ease-in-out;
-    padding: 6px 8px;
-    border-bottom: 1px solid var(--color-three);
+  transition: all 0.5s ease-in-out;
+  padding: 6px 8px;
+  border-bottom: 1px solid var(--color-three);
 }
 
 .item-pg .tag li:hover {
-    border-bottom: 1px solid var(--color-two);
+  border-bottom: 1px solid var(--color-two);
 }
 
 .item-pg .tag li a {
-    text-decoration: none;
-    color: var(--color-one);
+  text-decoration: none;
+  color: var(--color-one);
 }
 
 .item-pg .tag li i {
-    padding-left: 6px;
+  padding-left: 6px;
 }
 
-/*------------------- Contact page -------------------*/
-.contact {
-    padding-top: 10%;
-    padding-bottom: 10%;
-    background-image: url(../img/dot-grid.png);
-}
-
-.contact .form-area {
-    width: 50%;
-    margin: 0 auto;
-    background-color: var(--color-three);
-    padding: 30px 50px;
-    border-radius: 12px;
-}
-
-.contact .form-area label {
-    color: var(--color-one);
-}
-
-.contact .form-area .submit-btn {
-    border: none;
-    border-radius: 8px;
-    padding: 6px 20px;
-    background-color: var(--color-one);
-    color: var(--color-w);
-}
+/*------------------- End of Item Page -------------------*/
