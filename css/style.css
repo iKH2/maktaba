@@ -222,15 +222,6 @@ header nav .nav-item {
   transform: skewY(-2deg);
 }
 
-.last-section .contact-icons {
-  display: inline-flex;
-  gap: 14px;
-}
-
-.last-section .contact-icons i {
-    font-size: 26px;
-}
-
 .last-section .footer-contact li span {
     padding-left: 8px;
     display: inline-flex;
