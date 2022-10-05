@@ -5,7 +5,7 @@
 <div class="banner-image w-100 vh-100 d-flex justify-content-right align-items-center">
     <div class="content">
         <div class="container">
-            <h1 class="text-white">مكتبة أيمن</h1>
+            <h1 class="text-white"></h1>
             <p>كل ما تحتاجه لتُبدع!</p>
         </div>
     </div>
