@@ -57,10 +57,15 @@ header {
 header .nav-link {
   color: var(--color-w);
   font-size: 18px;
+  transition: all 0.3s ease-in-out;
 }
 
 header .nav-link:hover {
   color: var(--color-two);
+}
+
+header .dropdown-item {
+  transition: all 0.3s ease-in-out;
 }
 
 header .dropdown-item:hover {
