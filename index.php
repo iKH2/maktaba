@@ -1,5 +1,5 @@
 <?php include "./header.php" ?>
-<!------------------- Navbar ------------------->
+<!------------------- header ------------------->
 <!-- Banner Image  -->
 <div class="overlay"></div>
 <div class="banner-image w-100 vh-100 d-flex justify-content-right align-items-center">
@@ -11,6 +11,7 @@
     </div>
 </div>
 <!------------------- End of Header ------------------->
+<!------------------- section-1 ------------------->
 <section class="section-1">
     <div class="container">
         <h3 class="sec-1-t">الأقسام الرئيسية</h3>
@@ -43,6 +44,71 @@
         </div>
     </div>
 </section>
+<!------------------- end of section-1 ------------------->
+<!------------------- section-1.1 ------------------->
+<section class="section-1-1">
+    <div class="container">
+        <h3>ما يميّزنا</h3>
+        <div class="sec-1-1-content">
+            <div class="row g-4 text-center">
+                <div class="col-md-3">
+                    <div class="sec-1-1-item">
+                        <div class="section-1-1-item-img">
+                            <img src="img/quality.svg" alt="" width="100" height="100">
+                        </div>
+                        <div class="sec-1-1-item-title">
+                            <h4>منتجات أصلية</h4>
+                        </div>
+                        <div class="sec-1-1-item-detail">
+                            <p>منتجاتنا هي الأفضل وذات جودة عالية ويتم اختيارها بعناية لتناسب ذوقكم الرفيع</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="sec-1-1-item">
+                        <div class="section-1-1-item-img">
+                            <img src="img/customer-service-agent.svg" alt="" width="100" height="100">
+                        </div>
+                        <div class="sec-1-1-item-title">
+                            <h4>الدعم الفنّي</h4>
+                        </div>
+                        <div class="sec-1-1-item-detail">
+                            <p>نقدم دعم فنّي على مدار الساعة مع مركز دعم متكامل لجميع استفساراتكم</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="sec-1-1-item">
+                        <div class="section-1-1-item-img">
+                            <img src="img/shopping-list.svg" alt="" width="100" height="100">
+                        </div>
+                        <div class="sec-1-1-item-title">
+                            <h4>تنوع المنتجات</h4>
+                        </div>
+                        <div class="sec-1-1-item-detail">
+                            <p>نوفر كل ما تحتاجه تحت سقف واحد من قرطاسية وألعاب واكسسوارات الجوال وغيرها</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="sec-1-1-item">
+                        <div class="section-1-1-item-img">
+                            <img src="img/delivery-truck.svg" alt="" width="100" height="100">
+                        </div>
+                        <div class="sec-1-1-item-title">
+                            <h4>التوصيل السريع</h4>
+                        </div>
+                        <div class="sec-1-1-item-detail">
+                            <p>نوصّل لجميع الأحياء وفي نفس اليوم للطلبات قبل الساعة الخامسة مساءً</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!------------------- end of section-1.1 ------------------->
+<!------------------- section-2 ------------------->
 <section class="section-2">
     <div class="container">
         <h3 class="sec-2-t">الأكثر مبيعاً</h3>
@@ -61,6 +127,8 @@
             </div>
         </div>
 </section>
+<!------------------- end of section-2 ------------------->
+<!------------------- section-3 ------------------->
 <section class="section-3" id="contact-us">
     <div class="container">
         <h3>اتصل بنا</h3>
@@ -91,9 +159,9 @@
                 </div>
             </div>
         </div>
-
     </div>
 </section>
+<!------------------- end of section-3 ------------------->
 <!------------------- Footer ------------------->
 <?php include "./footer.php" ?>
 <!------------------- End of footer ------------------->

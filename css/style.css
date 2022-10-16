@@ -7,10 +7,10 @@
   --color-w: #fff;
   --color-b: #000;
 }
+/*------------------- end of variables -------------------*/
 
 body {
   font-family: "Baloo Bhaijaan 2", cursive;
-  /* background: url("../img/dot-grid.png") center; */
 }
 
 /*------------------- general -------------------*/
@@ -48,6 +48,7 @@ h3::before {
     list-style-type: none;
     padding: 0;
 }
+/*------------------- end of functions -------------------*/
 
 /*------------------- header -------------------*/
 header {
@@ -103,6 +104,7 @@ header .dropdown-item:hover {
 header nav .nav-item {
   margin-right: 16px;
 }
+/*------------------- end of header -------------------*/
 
 /*------------------- Sections -------------------*/
 .section-1,
@@ -111,6 +113,7 @@ header nav .nav-item {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+
 /*------------------- Section-1 -------------------*/
 .section-1 .s1-item {
   display: flex;
@@ -137,6 +140,28 @@ header nav .nav-item {
 
 .section-1 a {
   text-decoration: none;
+  color: var(--color-two);
+}
+/*------------------- end of Section-1 -------------------*/
+/*------------------- Section 1.1 -------------------*/
+.section-1-1 {
+  color: var(--color-one);
+}
+
+.section-1-1 .sec-1-1-content .sec-1-1-item {
+  transition: all 0.3s ease-in-out;
+}
+
+.section-1-1 .sec-1-1-content .sec-1-1-item:hover {
+  transform: scale(1.1);
+}
+
+.section-1-1 .sec-1-1-content .sec-1-1-item .section-1-1-item-img {
+  margin-bottom: 20px;
+}
+
+.section-1-1 .sec-1-1-content .sec-1-1-item .sec-1-1-item-title h4 {
+  font-weight: 600;
   color: var(--color-two);
 }
 
